@@ -15,6 +15,8 @@
       virvatuli = nixpkgs.lib.nixosSystem {
         specialArgs = { inherit inputs; };
         modules = [
+          ./config.nix
+          ./hosts/virvatuli/config.nix
           inputs.home-manager.nixosModules.default
         ];
       };
