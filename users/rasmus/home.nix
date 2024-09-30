@@ -50,7 +50,8 @@ fi";
     # Dotfiles
     # TODO: Use dotfiles repo for configs
     configFile = {
-        foot.source = config/foot;
+        foot.source = dotfiles/foot;
+        nvim.source = dotfiles/nvim;
     };
   };
 }
