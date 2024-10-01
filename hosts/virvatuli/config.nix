@@ -42,14 +42,6 @@
     packages = with pkgs; [];
   };
 
-  # Import home-manager configs
-  home-manager = {
-    extraSpecialArgs = { inherit inputs; };
-    users = {
-      "rasmus" = import ../../users/rasmus/home.nix;
-    };
-  };
-
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
 

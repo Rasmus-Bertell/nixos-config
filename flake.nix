@@ -19,16 +19,11 @@
         modules = [
           ./config.nix
           ./hosts/virvatuli/config.nix
-          # home-manager.nixosModules.default
+          home-manager.nixosModules.default
           # inputs.dotfiles.home.nix
-          home-manager.nixosModules.home-manager
-          {
-            home-manager.useGlobalPkgs = true;
-            home-manager.useUserPackages = true;
-            home-manager.users.rasmus = import dotfiles.home.nix;
-          }
         ];
       };
     };
+    homeConfigurations = dotfiles.homeConfigurations;
   };
 }
