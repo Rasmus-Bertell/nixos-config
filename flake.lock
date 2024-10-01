@@ -6,11 +6,11 @@
         "nixpkgs": "nixpkgs"
       },
       "locked": {
-        "lastModified": 1727798437,
-        "narHash": "sha256-VNuXV1/vml3P8WmEp9LXnEY3kidjhl3BKWqrXSarEg0=",
+        "lastModified": 1727802718,
+        "narHash": "sha256-SCsUAnd3usJkHzG2lb7WYjyhsutvTa/2UV6emMQWeZk=",
         "owner": "Rasmus-Bertell",
         "repo": "dotfiles",
-        "rev": "359921f9e0e05c7ec634ebf1e18646b2060f24d6",
+        "rev": "c2b40089d538ff7c6215508ac5b3c9328a1dae99",
         "type": "github"
       },
       "original": {

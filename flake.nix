@@ -20,7 +20,7 @@
           ./config.nix
           ./hosts/virvatuli/config.nix
           home-manager.nixosModules.default
-          dotfiles.home.nix
+          dotfiles.nixosModules.home
         ];
       };
     };
