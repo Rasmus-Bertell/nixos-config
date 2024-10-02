@@ -8,8 +8,6 @@
       url = "github:nix-community/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-
-    dotfiles.url = "github:Rasmus-Bertell/dotfiles";
   };
 
   outputs = { self, nixpkgs, home-manager, dotfiles, ... }@inputs: {
@@ -24,6 +22,5 @@
         ];
       };
     };
-    homeConfigurations = dotfiles.homeConfigurations;
   };
 }
