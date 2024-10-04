@@ -3,7 +3,6 @@
 {
   imports = [
     ./hardware.nix
-    inputs.home-manager.nixosModules.default
   ];
 
   # Bootloader.
