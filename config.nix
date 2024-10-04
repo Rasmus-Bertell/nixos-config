@@ -9,6 +9,7 @@
     php
     php.packages.composer
     intelephense
+    ripgrep
   ];
 
   environment.pathsToLink = [ "/share/zsh" ];
